@@ -1,0 +1,115 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.spline-sans-<uniquifier> {
+  font-family: "Spline Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+    font-family: sans-serif;
+    color: #777777fa;
+    line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+a:hover{
+    color: orangered;
+}
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+
+.btn{
+    color: aliceblue;
+    background-color: orangered;
+    padding: 14px 38px;
+}
+
+.slide-1{
+   background-image: url(slide1.jpg);
+   background-size: cover;
+
+
+    }
+.slide-2{
+    background-image: url(slide2.webp);
+    background-size: cover;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, 0.897);
+    
+
+}
+/* about */
+#about .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: orangered;
+}
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-text p{
+    width: 500px;
+    margin: 16px auto 0 auto;
+}
+/*menu*/
+#Menu .nav-pills .nav-link{
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: black;
+    box-shadow: 0 10px 40px rgb(0, 0, 0,0.1);
+}
+#Menu .nav-pills .nav-link.active{
+    background-color: rgb(179, 217, 10);
+    color: white;
+}
+.shadow-on-hover{
+    transition: all 0.2s;
+}
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0,0.1);
+}
+
+#Reservation{
+    text-align: center;
+}
+#Reservation h1{
+    color:orangered
+}
+form {
+    text-align: center;
+    
+}
+#Reservation .form-control:focus{
+   box-shadow: none;
+   border-color: orangered;
+}
+/* footer*/
+footer{
+    background-color: rgba(0, 0, 0,0.2);
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+footer p{
+    color: black;
+
+}
+.footer-bottom {
+    margin-top: 0px;
+}
